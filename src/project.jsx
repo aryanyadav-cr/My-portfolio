@@ -9,11 +9,19 @@ import Login from './assets/login.png';
 import To from './assets/tic.png';
 import Tic from './assets/Tic-Tac.png';
 import Net from './assets/Netflix.png';
+import User from './assets/User.png';
 
 
 
 
 const projects = [
+{
+        id: 7,
+        title: "User Authentication System",
+        description: "A secure, full-stack authentication application built to handle user onboarding and identity management.",
+        image: User , 
+        repoLink: "https://github.com/aryanyadav-cr/User-Authentication-System.git"
+    },
     {
         id: 1,
         title: "Spotify Clone",
