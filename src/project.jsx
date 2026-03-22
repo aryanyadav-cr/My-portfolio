@@ -9,7 +9,7 @@ import Login from './assets/login.png';
 import To from './assets/tic.png';
 import Tic from './assets/Tic-Tac.png';
 import Net from './assets/Netflix.png';
-import User from './assets/User.png';
+import User from './assets/Screenshot 2026-03-22 112013.png';
 
 
 
