@@ -6,7 +6,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return(
         <nav className="bg-gradient-to-r from-transparent to-transparent flex items-center justify-between px-6 py-4 fixed top-0 left-0 w-full z-20 shadow-md">
-            <h1 className="font-bold text-xl">Aryan yadav</h1>
+            <h1 className="font-bold text-white text-xl">Aryan yadav</h1>
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-white text-2xl">
                 {isMenuOpen ? '✕' : '☰'}
             </button>
