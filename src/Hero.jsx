@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import resume from './assets/new_resume_77 (1).pdf';
 import GitHubIcon from './assets/icons8-github-logo-24.png';
 import SplitText from "./SplitText";
 import { useState, useEffect } from 'react';
@@ -56,11 +56,11 @@ const Hero = () => {
   </span>
 </h1>
  
-          <a href="/My_Resume.pdf" download="My_Resume1.docx">
-            <button className="px-7 py-3.5 mt-4 text-base rounded cursor-pointer text-white bg-blue-500 transition duration-300 ease-in-out hover:rotate-2 hover:scale-110 block">
-              Download Resume
-            </button>
-          </a>
+          <a href={resume} download="Aryan_Yadav_Resume.pdf">
+  <button className="px-7 py-3.5 mt-4 text-base rounded cursor-pointer text-white bg-blue-500 transition duration-300 ease-in-out hover:rotate-2 hover:scale-110 block">
+    Download Resume
+  </button>
+</a>
         
   
   
