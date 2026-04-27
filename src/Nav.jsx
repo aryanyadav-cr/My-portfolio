@@ -14,12 +14,12 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
             </button>
            
            <ul className={`${isMenuOpen ? 'flex' : 'hidden'} md:flex flex-col md:flex-row absolute md:static top-16 left-0 w-full md:w-auto bg-black md:bg-transparent p-6 md:p-0 gap-6 transition-all`}>
-                <li><a href="#hero" onClick={() => setIsMenuOpen(false)} className="text-sky-500 hover:text-sky-700 transition duration-300 cursor-pointer" >Home</a></li>
-                <li><a href="#about" onClick={() => setIsMenuOpen(false)} className="text-sky-500 hover:text-sky-700 transition duration-300 cursor-pointer" >About</a></li>
-                <li><a href="#skills" onClick={() => setIsMenuOpen(false)} className="text-sky-500 hover:text-sky-700 transition duration-300 cursor-pointer" >Skills</a></li>
-                <li><a href="#projects" onClick={() => setIsMenuOpen(false)} className="text-sky-500 hover:text-sky-700 transition duration-300 cursor-pointer" >Projects</a></li>
-                <li><a href="#Certificates" onClick={() => setIsMenuOpen(false)} className="text-sky-500 hover:text-sky-700 transition duration-300 cursor-pointer" >Certificates</a></li>
-                <li><a href="#contact" onClick={() => setIsMenuOpen(false)} className="text-sky-500 hover:text-sky-700 transition duration-300 cursor-pointer" >Contact</a></li>
+                <li><a href="#hero" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-sky-700 transition duration-300 cursor-pointer" >Home</a></li>
+                <li><a href="#about" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-sky-700 transition duration-300 cursor-pointer" >About</a></li>
+                <li><a href="#skills" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-sky-700 transition duration-300 cursor-pointer" >Skills</a></li>
+                <li><a href="#projects" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-sky-700 transition duration-300 cursor-pointer" >Projects</a></li>
+                <li><a href="#Certificates" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-sky-700 transition duration-300 cursor-pointer" >Certificates</a></li>
+                <li><a href="#contact" onClick={() => setIsMenuOpen(false)} className="text-white hover:text-sky-700 transition duration-300 cursor-pointer" >Contact</a></li>
             </ul>
 
             
