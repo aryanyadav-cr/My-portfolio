@@ -1,7 +1,20 @@
 
 export default function Skills() {
-const skillList = ["React", "Java", "JavaScript", "Tailwind CSS", "HTML", "CSS", "Git" , "Node.js", "Express", "MongoDB","MySQL","Github"];
-
+const skillList = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Tailwind CSS",
+  "Node.js",
+  "Express.js",
+  "EJS",
+  "MongoDB",
+  "MySQL",
+  "Java",
+  "Git",
+  "GitHub"
+];
   return (
     <section id="skills" className="bg-black py-20 px-6 text-white text-center h-min-screen">
       <h2 data-aos="fade-up" className="text-3xl md:text-5xl font-bold mb-10">My Skills</h2>
