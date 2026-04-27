@@ -11,7 +11,7 @@ export default function About() {
     
    
     <p data-aos="fade-up" data-aos-delay="200" className="max-w-2xl text-center mx-auto text-base md:text-lg text-gray-400">
-      Hello, I’m Aryan Yadav, a BCA student passionate about technology and software development. I enjoy learning new programming languages and building web applications. My goal is to become a skilled Full Stack Developer and work on innovative projects that solve real-world problems. I am always eager to improve my coding skills and explore new technologies.
+     I'm Aryan, a BCA student that actually loves creating things on the internet. I adore the process of transforming a concept into a completely functional application, from the front end to the back end, and I work with the MERN stack. I've learned more from working on open-source and personal projects than I could have in a classroom. Whether it's a framework, a tool, or an improved approach to writing code, I'm constantly learning new things. My objective is straightforward: I want to work as a developer and create software that truly makes a difference.
     </p>
 </section>
 
