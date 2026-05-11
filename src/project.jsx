@@ -9,7 +9,8 @@ import Login from './assets/login.png';
 import To from './assets/tic.png';
 import Tic from './assets/Tic-Tac.png';
 import Net from './assets/Netflix.png';
-import User from './assets/Screenshot 2026-03-22 112013.png';
+import User from './assets/Netflix.png';
+import link from './assets/img4.png';
 
 
 
@@ -21,6 +22,13 @@ const projects = [
         description: "A secure, full-stack authentication application built to handle user onboarding and identity management.",
         image: User , 
         repoLink: "https://github.com/aryanyadav-cr/User-Authentication-System.git"
+    },
+{
+        id: 8,
+        title: "LinkedIn Clone",
+        description: "Built a clean, responsive user interface using React components and Tailwind CSS.",
+        image: link , 
+        repoLink: "https://github.com/aryanyadav-cr/LinkedIn-clone.git"
     },
     {
         id: 1,
@@ -105,9 +113,14 @@ const Projects = () => {
                             <Typography variant="h5">{item.title}</Typography>
                             <Typography variant="body2">{item.description}</Typography>
                         </CardContent>
+                        {/* <div className='flex gap-5 flex-column'> */}
                         <Button href={item.repoLink} variant="contained" sx={{ ml: 2, margin: 2 }}>
                             Github
                         </Button>
+                        {/* <Button href={item.repoLink} variant="contained" sx={{ ml: 2, margin: 2 }}>
+                            Live
+                        </Button> */}
+                        {/* </div> */}
                     </Card>
                 ))}
             </div>
