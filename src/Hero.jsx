@@ -1,6 +1,6 @@
 
 import React from 'react';
-import resume from './assets/new_resume_77 (1).pdf';
+import resume from './assets/new_resume_77 (2).pdf';
 import GitHubIcon from './assets/icons8-github-logo-24.png';
 import SplitText from "./SplitText";
 import { useState, useEffect } from 'react';
